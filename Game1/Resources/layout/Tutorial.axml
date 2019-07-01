@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tutorial1"
+    android:id="@+id/tutorialLayout">
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tutorialGrid"
+        android:rowCount="1"
+        android:columnCount="2"
+        android:useDefaultMargins="false">
+        <Button
+            android:id="@+id/backButton"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_gravity="left"
+            android:background="@drawable/back"
+            android:layout_width="120px"
+            android:layout_height="60px"
+            android:layout_marginTop="21.0dp"
+            android:layout_marginLeft="18.0dp" />
+        <Button
+            android:id="@+id/forwardButton"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:layout_gravity="right"
+            android:background="@drawable/forward"
+            android:layout_width="120px"
+            android:layout_height="60px"
+            android:layout_marginTop="21.0dp"
+            android:layout_marginRight="18.0dp" />
+    </GridLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MenuButton"
+        android:layout_marginLeft="13.5dp"
+        android:layout_marginRight="289.5dp"
+        android:text="menu" />
+</LinearLayout>
